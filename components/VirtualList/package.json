@@ -1,0 +1,33 @@
+{
+  "name": "virtualList",
+  "version": "0.0.0",
+  "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
+  "keywords": [],
+  "author": "anzp <anzp@rd.netease.com>",
+  "license": "ISC",
+  "main": "lib/virtualList.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://nexus3.corp.youdao.com/repository/npm-all/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mrrabbitan/virtualList.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/Mrrabbitan/virtualList/issues"
+  },
+  "homepage": "https://github.com/Mrrabbitan/virtualList#readme",
+  "dependencies": {
+    "ali-react-table": "^2.6.1"
+  }
+}
