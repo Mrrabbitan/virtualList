@@ -14,7 +14,7 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://nexus3.corp.youdao.com/repository/npm-all/"
+    "registry": "https://registry.npmjs.org"
   },
   "repository": {
     "type": "git",
@@ -29,5 +29,6 @@
   "homepage": "https://github.com/Mrrabbitan/virtualList#readme",
   "dependencies": {
     "ali-react-table": "^2.6.1"
-  }
+  },
+  "gitHead": "4d16ba91c7411cacf514dc693dc685fdcf9c8075"
 }
