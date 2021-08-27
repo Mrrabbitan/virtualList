@@ -2,7 +2,6 @@
   "name": "react-virtuallist-an",
   "version": "0.0.8-alpha.0",
   "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
-  "keywords": [],
   "author": "anzp <anzp@rd.netease.com>",
   "license": "ISC",
   "main": "lib/virtualList.js",
@@ -31,5 +30,15 @@
   "dependencies": {
     "ali-react-table": "^2.6.1"
   },
-  "gitHead": "a500a0a0ee55cb96e4c3265d5aacc9bbff2816ad"
+  "gitHead": "a500a0a0ee55cb96e4c3265d5aacc9bbff2816ad",
+  "keywords": [
+    "browser",
+    "virtuallist",
+    "table",
+    "mocks",
+    "antd",
+    "react",
+    "javascript",
+    "vscode"
+  ]
 }
