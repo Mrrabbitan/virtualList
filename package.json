@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "virtualList-demo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,6 +10,7 @@
     "@types/node": "^16.7.1",
     "@types/react": "^17.0.19",
     "@types/react-dom": "^17.0.9",
+    "ali-react-table": "^2.6.1",
     "antd": "^4.16.13",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -41,7 +42,9 @@
     ]
   },
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "jest": "^27.0.6",
+    "lerna": "^4.0.0",
+    "typescript": "^4.3.5"
   },
   "workspaces": [
     "components/**"

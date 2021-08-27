@@ -14,14 +14,15 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://nexus3.corp.youdao.com/repository/npm-all/"
+    "access": "public"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Mrrabbitan/virtualList.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "jest",
+    "clean": "rimraf lib"
   },
   "bugs": {
     "url": "https://github.com/Mrrabbitan/virtualList/issues"
