@@ -7,6 +7,14 @@
   "useWorkspaces": true,
   "command": {
     "bootstrap": {
+      "ignore": "",
+      "npmClientArgs": ""
+    },
+    "publish": {
+      "ignoreChanges": [
+        "ignored-file",
+        "*.md"
+      ]
     }
   }
 }
