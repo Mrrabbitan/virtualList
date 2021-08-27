@@ -1,5 +1,5 @@
 {
-  "name": "@virtualList/list",
+  "name": "react-list-an",
   "version": "0.1.0-alpha.0",
   "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
   "keywords": [],
@@ -30,5 +30,5 @@
   "dependencies": {
     "ali-react-table": "^2.6.1"
   },
-  "gitHead": "a89fc38c11071b40206d3762bb56e2797b966621"
+  "gitHead": "69b2e2ed0b1fb696ebccf17212537c67174114c8"
 }
