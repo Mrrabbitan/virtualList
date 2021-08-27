@@ -48,5 +48,15 @@
   },
   "workspaces": [
     "components/**"
-  ]
+  ],
+  "ignoreChanges": [
+    "ignored-file",
+    "**/__tests__/**",
+    "**/*.md"
+  ],
+  "command": {
+    "publish": {
+      "registry": "https://registry.npmjs.org"
+    }
+  }
 }
