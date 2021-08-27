@@ -16,5 +16,15 @@
         "*.md"
       ]
     }
+  },
+  "changelog": {
+    "repo": "Mrrabbitan/virtualList",
+    "labels": {
+      "enhancement": ":rocket: Enhancement",
+      "bug": ":bug: Bug Fix",
+      "doc": "Refine Doc",
+      "feat": "New Feature"
+    },
+    "cacheDir": ".changelog"
   }
 }
