@@ -14,7 +14,7 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://registry.npmjs.org"
+    "registry": "https://www.npmjs.com"
   },
   "repository": {
     "type": "git",
@@ -31,5 +31,5 @@
   "dependencies": {
     "ali-react-table": "^2.6.1"
   },
-  "gitHead": "4d16ba91c7411cacf514dc693dc685fdcf9c8075"
+  "gitHead": "a89fc38c11071b40206d3762bb56e2797b966621"
 }
