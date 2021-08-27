@@ -1,0 +1,120 @@
+0 silly argv {
+0 silly argv   _: [ 'publish' ],
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': 'lerna'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath /Users/anzp/youdao/virtualList/my-app
+3 info versioning independent
+4 verbose session fb93728274644968
+5 verbose user-agent lerna/4.0.0/node@v14.16.0+x64 (darwin)
+6 silly argv { _: [ 'publish' ], composed: 'publish', lernaVersion: '4.0.0' }
+7 verbose rootPath /Users/anzp/youdao/virtualList/my-app
+8 silly isAnythingCommitted
+9 verbose isAnythingCommitted 1
+10 silly getCurrentBranch
+11 verbose currentBranch master
+12 silly remoteBranchExists
+13 silly isBehindUpstream
+14 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 1
+15 silly hasTags
+16 verbose hasTags true
+17 silly git-describe.sync "@virtualList/list@0.0.3-2-g43030f6" => {"lastTagName":"@virtualList/list@0.0.3","lastVersion":"0.0.3","refCount":"2","sha":"43030f6","isDirty":false}
+18 info Looking for changed packages since @virtualList/list@0.0.3
+19 silly checking diff components/VirtualList
+20 silly found diff in components/VirtualList/package.json
+21 verbose filtered diff [ 'components/VirtualList/package.json' ]
+22 silly checking diff components/list
+23 silly found diff in components/list/package.json
+24 verbose filtered diff [ 'components/list/package.json' ]
+25 verbose updated virtualList
+26 verbose updated @virtualList/list
+27 verbose git-describe undefined => "@virtualList/list@0.0.3-2-g43030f6"
+28 silly git-describe parsed => {"lastTagName":"@virtualList/list@0.0.3","lastVersion":"0.0.3","refCount":"2","sha":"43030f6","isDirty":false}
+29 info execute Skipping releases
+30 silly lifecycle No script for "preversion" in "virtualList-demo", continuing
+31 silly lifecycle No script for "preversion" in "virtualList", continuing
+32 silly lifecycle No script for "preversion" in "@virtualList/list", continuing
+33 silly lifecycle No script for "version" in "@virtualList/list", continuing
+34 silly lifecycle No script for "version" in "virtualList", continuing
+35 silly lifecycle No script for "version" in "virtualList-demo", continuing
+36 silly gitAdd [
+36 silly gitAdd   'components/list/package.json',
+36 silly gitAdd   'components/VirtualList/package.json'
+36 silly gitAdd ]
+37 silly gitCommit Publish
+37 silly gitCommit
+37 silly gitCommit  - virtualList@0.0.4
+37 silly gitCommit  - @virtualList/list@0.0.4
+38 verbose git [
+38 verbose git   'commit',
+38 verbose git   '-F',
+38 verbose git   '/private/var/folders/jv/09ynbg8j3rg_gy8xm_f3lk080000gn/T/af010958-cb5b-42db-80c5-a08d2eb34333/lerna-commit.txt'
+38 verbose git ]
+39 silly gitTag virtualList@0.0.4
+40 verbose git [ 'tag', 'virtualList@0.0.4', '-m', 'virtualList@0.0.4' ]
+41 silly gitTag @virtualList/list@0.0.4
+42 verbose git [ 'tag', '@virtualList/list@0.0.4', '-m', '@virtualList/list@0.0.4' ]
+43 silly lifecycle No script for "postversion" in "virtualList", continuing
+44 silly lifecycle No script for "postversion" in "@virtualList/list", continuing
+45 silly lifecycle No script for "postversion" in "virtualList-demo", continuing
+46 info git Pushing tags...
+47 silly gitPush origin master
+48 info publish Publishing packages to npm...
+49 notice Skipping all user and access validation due to third-party registry
+50 notice Make sure you're authenticated properly ¯\_(ツ)_/¯
+51 silly getCurrentSHA
+52 verbose getCurrentSHA 48e45e5e3b2b764339707557ed2cfed9c2bf2db0
+53 silly lifecycle No script for "prepublish" in "virtualList-demo", continuing
+54 silly lifecycle No script for "prepare" in "virtualList-demo", continuing
+55 silly lifecycle No script for "prepublishOnly" in "virtualList-demo", continuing
+56 silly lifecycle No script for "prepack" in "virtualList-demo", continuing
+57 verbose pack-directory components/VirtualList
+58 verbose pack-directory components/list
+59 silly lifecycle No script for "prepublish" in "virtualList", continuing
+60 silly lifecycle No script for "prepublish" in "@virtualList/list", continuing
+61 silly lifecycle No script for "prepare" in "virtualList", continuing
+62 silly lifecycle No script for "prepare" in "@virtualList/list", continuing
+63 silly lifecycle No script for "prepublishOnly" in "virtualList", continuing
+64 silly lifecycle No script for "prepublishOnly" in "@virtualList/list", continuing
+65 silly lifecycle No script for "prepack" in "virtualList", continuing
+66 silly lifecycle No script for "prepack" in "@virtualList/list", continuing
+67 silly lifecycle No script for "postpack" in "virtualList", continuing
+68 verbose packed components/VirtualList
+69 silly lifecycle No script for "postpack" in "@virtualList/list", continuing
+70 verbose packed components/list
+71 silly lifecycle No script for "postpack" in "virtualList-demo", continuing
+72 verbose publish virtualList
+73 verbose publish @virtualList/list
+74 silly FetchError: request to http://tenet.corp.youdao.com:3128/@virtualList%2flist failed, reason: connect ETIMEDOUT 10.108.162.231:3128
+74 silly     at ClientRequest.<anonymous> (/Users/anzp/youdao/virtualList/my-app/node_modules/minipass-fetch/lib/index.js:110:14)
+74 silly     at ClientRequest.emit (events.js:315:20)
+74 silly     at Socket.socketErrorListener (_http_client.js:469:9)
+74 silly     at Socket.emit (events.js:327:22)
+74 silly     at emitErrorNT (internal/streams/destroy.js:106:8)
+74 silly     at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+74 silly     at processTicksAndRejections (internal/process/task_queues.js:80:21)
+74 silly  FetchError: request to http://tenet.corp.youdao.com:3128/@virtualList%2flist failed, reason: connect ETIMEDOUT 10.108.162.231:3128
+74 silly     at ClientRequest.<anonymous> (/Users/anzp/youdao/virtualList/my-app/node_modules/minipass-fetch/lib/index.js:110:14)
+74 silly     at ClientRequest.emit (events.js:315:20)
+74 silly     at Socket.socketErrorListener (_http_client.js:469:9)
+74 silly     at Socket.emit (events.js:327:22)
+74 silly     at emitErrorNT (internal/streams/destroy.js:106:8)
+74 silly     at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+74 silly     at processTicksAndRejections (internal/process/task_queues.js:80:21) {
+74 silly   code: 'ETIMEDOUT',
+74 silly   errno: 'ETIMEDOUT',
+74 silly   syscall: 'connect',
+74 silly   address: '10.108.162.231',
+74 silly   port: 3128,
+74 silly   type: 'system'
+74 silly }
+75 error ETIMEDOUT request to http://tenet.corp.youdao.com:3128/@virtualList%2flist failed, reason: connect ETIMEDOUT 10.108.162.231:3128
+76 error FetchError: request to http://tenet.corp.youdao.com:3128/@virtualList%2flist failed, reason: connect ETIMEDOUT 10.108.162.231:3128
+76 error     at ClientRequest.<anonymous> (/Users/anzp/youdao/virtualList/my-app/node_modules/minipass-fetch/lib/index.js:110:14)
+76 error     at ClientRequest.emit (events.js:315:20)
+76 error     at Socket.socketErrorListener (_http_client.js:469:9)
+76 error     at Socket.emit (events.js:327:22)
+76 error     at emitErrorNT (internal/streams/destroy.js:106:8)
+76 error     at emitErrorCloseNT (internal/streams/destroy.js:74:3)

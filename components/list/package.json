@@ -14,7 +14,7 @@
     "lib"
   ],
   "publishConfig": {
-    "access": "public"
+    "registry": "https://npm.pkg.github.com"
   },
   "repository": {
     "type": "git",
@@ -30,5 +30,5 @@
   "dependencies": {
     "ali-react-table": "^2.6.1"
   },
-  "gitHead": "a89fc38c11071b40206d3762bb56e2797b966621"
+  "gitHead": "48e45e5e3b2b764339707557ed2cfed9c2bf2db0"
 }
