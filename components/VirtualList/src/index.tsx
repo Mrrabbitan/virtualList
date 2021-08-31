@@ -3,7 +3,7 @@
 import React from 'react';
 import { BaseTable } from 'ali-react-table'
 const VirtualTable = (props) =>{
-    const { loading, dataSource, columns } = props
+    const { loading, dataSource, columns, length } = props
     
     return (<>
         <BaseTable
